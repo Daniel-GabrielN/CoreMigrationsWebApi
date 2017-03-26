@@ -1,5 +1,5 @@
 # CoreMigrationsWebApi
-###A ASP.NET Core Web API with EF Migrations and SQL Server on Ubuntu/Mint
+#### An ASP.NET Core Web API with EF Migrations and SQL Server on Ubuntu/Mint
 This is a tutorial on how to start developing Web APIs with EF Migrations on Ubuntu/Linux Mint using SQL Server. This project also works on Windows, just need to update the connection string.
 
 First install .Net Core:
@@ -28,7 +28,7 @@ dotnet run
 ```
 A server will start on localhost:5000. You can test sample controller by navigating to http://localhost:5000/api/values ,will get `["value1","value2"]`.
 
-At this point you can open the folder with Visual Stusio Code. If it suggests to install some extensions, just do it.
+At this point you can open the folder with Visual Studio Code. If it suggests to install some extensions, just do it.
 Add a folder `Context`and a file inside it `Context.cs`. inside it add:
 ```
 using Microsoft.EntityFrameworkCore;
@@ -259,7 +259,8 @@ namespace testApi.ViewModels
 ```
 Now run the project and test the endpoints with [Postman](https://www.getpostman.com/) or [RESTClient](https://addons.mozilla.org/en-US/firefox/addon/restclient/) or any other you prefer. Don't forget about `Content-type: application/json;` header.
 
+Here is an example for get/items:
 
+![Get all items](https://raw.githubusercontent.com/Daniel-GabrielN/CoreMigrationsWebApi/master/getAll.png)
 
-
-
+####I hope this was useful. Do not hesitate to contact me if you have questions or suggestions.
