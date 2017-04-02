@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
-using testApi.Context;
+using CoreMigrationsWebApi.Context;
 
 namespace CoreMigrationsWebApi.Migrations
 {
@@ -16,7 +16,7 @@ namespace CoreMigrationsWebApi.Migrations
                 .HasAnnotation("ProductVersion", "1.1.1")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("testApi.Models.Item", b =>
+            modelBuilder.Entity("CoreMigrationsWebApi.Models.Item", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();

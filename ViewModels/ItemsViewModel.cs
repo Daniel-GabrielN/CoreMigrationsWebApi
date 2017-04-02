@@ -1,7 +1,7 @@
 
 using System.Collections.Generic;
 
-namespace testApi.ViewModels
+namespace CoreMigrationsWebApi.ViewModels
 {
     public class ItemsViewModel
     {

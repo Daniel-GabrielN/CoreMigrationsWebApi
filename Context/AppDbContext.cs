@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace testApi.Context
+namespace CoreMigrationsWebApi.Context
 {
     public class AppDbContext : DbContext
     {

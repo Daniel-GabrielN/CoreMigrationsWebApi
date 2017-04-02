@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Microsoft.AspNetCore.Mvc;
-using testApi.Context;
-using testApi.ViewModels;
+using CoreMigrationsWebApi.Context;
+using CoreMigrationsWebApi.ViewModels;
 
 namespace CoreMigrationsWebApi.Controllers
 {

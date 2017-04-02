@@ -1,5 +1,5 @@
 
-namespace testApi.ViewModels
+namespace CoreMigrationsWebApi.ViewModels
 {
     public class ItemViewModel
     {
