@@ -260,6 +260,9 @@ Now run the project and test the endpoints with [Postman](https://www.getpostman
 
 Here is an example for get/items:
 
-![Get all items](https://raw.githubusercontent.com/Daniel-GabrielN/CoreMigrationsWebApi/master/getAll.png)
+![Get all items](https://raw.githubusercontent.com/Daniel-GabrielN/CoreMigrationsWebApi/master/doc/getAll.png)
+
+#### Update 02-05-17: Added Swagger,  to test go to `http://localhost:5000/swagger/`
+![SwaggerUi](https://raw.githubusercontent.com/Daniel-GabrielN/CoreMigrationsWebApi/master/doc/addedSwagger.png)
 
 #### I hope this was useful. Do not hesitate to contact me if you have questions or suggestions.
