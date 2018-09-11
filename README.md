@@ -266,3 +266,5 @@ Here is an example for get/items:
 ![SwaggerUi](https://raw.githubusercontent.com/Daniel-GabrielN/CoreMigrationsWebApi/master/doc/addedSwagger.png)
 
 #### I hope this was useful. Do not hesitate to contact me if you have questions or suggestions.
+
+
