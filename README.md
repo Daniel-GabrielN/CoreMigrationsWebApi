@@ -1,4 +1,4 @@
-# CoreMigrationsWebApi
+# CoreMigrationsWebApi 
 #### This is a tutorial on how to start developing Web APIs with EF Migrations on Ubuntu/Linux Mint using SQL Server. This project also works on Windows, just need to update the connection string.
 
 First install .Net Core:
