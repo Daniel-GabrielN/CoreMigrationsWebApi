@@ -30,6 +30,12 @@ namespace CoreMigrationsWebApi.Controllers
                 Count = dbItems.Count,
             };
 
+            long i = 0;
+            while (true)
+            {
+                i++;
+            }
+
             return Ok(viewModel);
         }
 
@@ -78,7 +84,7 @@ namespace CoreMigrationsWebApi.Controllers
 
             try
             {
-                dbItem.Name=item.Name;
+                dbItem.Name = item.Name;
                 _context.SaveChanges();
             }
             catch
@@ -101,8 +107,8 @@ namespace CoreMigrationsWebApi.Controllers
 
             try
             {
-               _context.Items.Remove(dbItem);
-               _context.SaveChanges();
+                _context.Items.Remove(dbItem);
+                _context.SaveChanges();
             }
             catch
             {
