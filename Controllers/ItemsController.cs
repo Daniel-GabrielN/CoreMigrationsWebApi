@@ -30,12 +30,6 @@ namespace CoreMigrationsWebApi.Controllers
                 Count = dbItems.Count,
             };
 
-            long i = 0;
-            while (true)
-            {
-                i++;
-            }
-
             return Ok(viewModel);
         }
 
