@@ -44,7 +44,7 @@ namespace CoreMigrationsWebApi.Controllers
                 return NotFound("item not found!");
             }
 
-            return Ok(new ItemViewModel { Id = dbItem.Id, Name=dbItem.Name });
+            return Ok(new ItemViewModel { Id = dbItem.Id, Name = dbItem.Name });
         }
 
         // POST api/items
@@ -78,7 +78,7 @@ namespace CoreMigrationsWebApi.Controllers
 
             try
             {
-                dbItem.Name = item.Name;
+                dbItem.Name=item.Name;
                 _context.SaveChanges();
             }
             catch
